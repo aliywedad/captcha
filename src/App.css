@@ -1,0 +1,97 @@
+.container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.score {
+  color: #3498db;
+  font-size: 24px;
+}
+
+.high-score {
+  color: #e74c3c;
+  font-size: 18px;
+}
+
+.game-over {
+  color: #e74c3c;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* .gameCanvas {
+  background-color: #2ca1be;
+  border: 3px solid #bdc3d9;
+} */
+.mydiv{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* Parent Container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  /* background-color: #f0f0f0;  */
+}
+
+/* Canvas */
+.gameCanvas {
+  border: 2px solid #333; /* Fallback: uniform border */
+  border-width: 0px 2px 2px 2px; /* Top, Right, Bottom, Left */
+  border-radius: 8px; 
+
+  background-image: url(../images/ocien.gif);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center; /* Centers the image horizontally and vertically */
+  background-size: cover; 
+ 
+}
+
+/*  */
+
+/* Controls Section */
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Arrow Icons */
+.arrow-icon {
+  color: #007bff; /* Primary color for the arrows */
+  transition: transform 0.2s ease;
+}
+
+.arrow-icon:hover {
+  transform: scale(1.2); /* Enlarge on hover */
+  color: #0056b3; /* Darker color on hover */
+}
+
+/* Left-Right Arrow Wrapper */
+.mydiv {
+  display: flex;
+  justify-content: space-between;
+  width: 150px; /* Adjust width for spacing */
+}
+
+/* Adjust spacing for Down Arrow */
+.mt-4 {
+  margin-top: 20px;
+}
